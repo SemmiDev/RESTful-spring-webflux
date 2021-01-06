@@ -109,6 +109,7 @@ class PhoneNumberValidator implements Predicate<String> {
 }
 
 @RestController
+@RequestMapping("/api/v1")
 class StudentController {
 
 	@Autowired
